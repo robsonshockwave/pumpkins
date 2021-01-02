@@ -12,19 +12,20 @@ body {
   background-color: black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
+  opacity: 0.5;
 }
 
 #container {
-  width: 750px;
+  width: 1000px;
   margin: 0 auto;
 }
 
 #topo {
   background: url(../images/abobora-header.jpg) no-repeat top left;
+  width: 750px;
   height: 250px;
-  opacity: 0.5;
   border-radius: 10px;
-  margin-top: 25px;
+  margin: 25px auto;
   border: 5px solid #fef76e;
 }
 
@@ -65,13 +66,45 @@ ul {
 }
 
 #topo ul li a:hover {
-  background: #faf519;
+  background: #faf519 url(../images/marcador.png) no-repeat left center;
   border: 5px solid orange;
   color: darkorange;
 }
 
 body.home #navegacao-horizontal a#home {
-  background: #faf519;
-  border: 3.5px solid orange;
+  background: orangered;
+  border: 3.5px solid #fef76e;
+  color: #fef76e;
+}
+
+/* Navegacao lateral */
+#navegacao-lateral h1 {
+  font-family: "Road Rage";
+  font-size: 1.2em;
+  text-align: center;
+}
+
+#navegacao-lateral {
+  width: 200px;
+  float: left;
+}
+
+#navegacao-lateral ul li a {
+  display: block;
+  line-height: 2em;
+  letter-spacing: 0.1em;
+  text-indent: 1.5em;
+  text-decoration: none;
+  font-family: "Road Rage";
   color: darkorange;
+  background: #fef76e;
+  padding: 7px;
+  border-radius: 2em;
+  border: 2px solid darkorange;
+}
+
+#navegacao-lateral ul li a:hover {
+  border: 5px solid orange;
+  color: orange;
+  background: #faf519 url(../images/marcador.png) no-repeat left center;
 }
