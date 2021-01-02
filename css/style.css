@@ -78,15 +78,31 @@ body.home #navegacao-horizontal a#home {
 }
 
 /* Navegacao lateral */
-#navegacao-lateral h1 {
+/* conteudo */
+#conteudo #primeira-coluna,
+#conteudo #segunda-coluna,
+#conteudo #navegacao-lateral {
+  float: left;
+  margin-bottom: 20px;
   font-family: "Road Rage";
-  font-size: 1.2em;
-  text-align: center;
+}
+
+#conteudo #primeira-coluna,
+#conteudo #segunda-coluna {
+  width: 380px;
+}
+
+#conteudo #primeira-coluna {
+  margin-left: 220px;
+}
+
+#conteudo #segunda-coluna {
+  margin-left: 20px;
 }
 
 #navegacao-lateral {
   width: 200px;
-  float: left;
+  margin-left: -1000px;
 }
 
 #navegacao-lateral ul li a {
@@ -95,16 +111,34 @@ body.home #navegacao-horizontal a#home {
   letter-spacing: 0.1em;
   text-indent: 1.5em;
   text-decoration: none;
-  font-family: "Road Rage";
   color: darkorange;
   background: #fef76e;
-  padding: 7px;
-  border-radius: 2em;
+  padding: 7px 0 7px 0;
+  border-radius: 0.7em;
   border: 2px solid darkorange;
 }
 
 #navegacao-lateral ul li a:hover {
-  border: 5px solid orange;
+  border: 6px solid orange;
   color: orange;
   background: #faf519 url(../images/marcador.png) no-repeat left center;
+}
+
+h1 {
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: 200;
+}
+
+#conteudo #primeira-coluna h1,
+#conteudo #segunda-coluna h1 {
+  background-color: #001a00;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+#conteudo #primeira-coluna p,
+#conteudo #segunda-coluna p {
+  padding: 10px;
+  font-size: 0.9em;
 }
