@@ -95,6 +95,10 @@ body.home #navegacao-horizontal a#home {
   margin-left: 20px;
 }
 
+#conteudo img {
+  margin-top: 10px;
+}
+
 #navegacao-lateral {
   width: 200px;
   margin-left: -1000px;
@@ -127,15 +131,58 @@ h1 {
 
 #conteudo #primeira-coluna h1,
 #conteudo #segunda-coluna h1 {
-  background-color: #001a00;
+  background: linear-gradient(to right, #001a00, #fef76e);
+  border: 2px solid #fef76e;
   border-radius: 20px;
   padding: 5px;
 }
 
 #conteudo #primeira-coluna p,
 #conteudo #segunda-coluna p {
-  padding: 10px;
+  padding: 10px 10px 0 10px;
   font-size: 0.9em;
+  margin-bottom: 5px;
+}
+
+.texto {
+  margin-bottom: 20px;
+}
+
+/* formulario */
+#formulario-pergunta {
+  clear: both;
+  width: 700px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+#formulario-pergunta textarea,
+#formulario-pergunta input[type="submit"] {
+  border: 3px solid darkorange;
+  font-family: "Road Rage";
+  color: darkorange;
+  background: #fef76e;
+}
+
+#formulario-pergunta label {
+  display: block;
+}
+
+#formulario-pergunta textarea {
+  display: block;
+  width: 700px;
+  max-width: 700px;
+  min-width: 700px;
+  height: 50px;
+  min-height: 50px;
+  padding: 5px;
+}
+
+#formulario-pergunta input[type="submit"] {
+  width: 125px;
+  height: 30px;
+  margin-top: 5px;
+  letter-spacing: 0.1em;
 }
 
 /* rodape */
