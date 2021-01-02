@@ -10,7 +10,7 @@
 
 body {
   background-color: black;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Road Rage";
   color: white;
   opacity: 0.5;
 }
@@ -42,7 +42,7 @@ ul {
 
 #topo ul {
   margin-top: 110px;
-  margin-left: 43px;
+  margin-left: 40px;
   float: left;
 }
 
@@ -59,10 +59,6 @@ ul {
   color: orange;
   border: 2px solid orange;
   border-radius: 10px;
-}
-
-.logo, #topo ul li a {
-  font-family: "Road Rage";
 }
 
 #topo ul li a:hover {
@@ -84,7 +80,6 @@ body.home #navegacao-horizontal a#home {
 #conteudo #navegacao-lateral {
   float: left;
   margin-bottom: 20px;
-  font-family: "Road Rage";
 }
 
 #conteudo #primeira-coluna,
@@ -141,4 +136,16 @@ h1 {
 #conteudo #segunda-coluna p {
   padding: 10px;
   font-size: 0.9em;
+}
+
+/* rodape */
+#rodape {
+  background: #fef76e;
+  clear: both;
+  text-align: center;
+  color: darkorange;
+  padding: 7px;
+  border-width: 3px 0px;
+  border-style: outset;
+  border-color: darkorange;
 }
