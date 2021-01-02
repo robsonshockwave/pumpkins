@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: "Road Rage";
+  src: url(../fonts/RoadRage.woff);
+}
+
 body {
   background-color: black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -35,7 +40,7 @@ ul {
 }
 
 #topo ul {
-  margin-top: 130px;
+  margin-top: 110px;
   margin-left: 43px;
   float: left;
 }
@@ -48,11 +53,15 @@ ul {
   text-decoration: none;
   letter-spacing: 0.1em;
   line-height: 2em;
-  padding: 0.7em 3em;
+  padding: 0.7em 2.6em;
   background: #fef76e;
   color: orange;
   border: 2px solid orange;
   border-radius: 10px;
+}
+
+.logo, #topo ul li a {
+  font-family: "Road Rage";
 }
 
 #topo ul li a:hover {
