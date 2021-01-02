@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+#container {
+  width: 750px;
+  margin: 0 auto;
+}
+
+#topo {
+  background: url(../images/abobora-header.jpg) no-repeat top left;
+  height: 250px;
+  opacity: 0.5;
+  border-radius: 10px;
+  margin-top: 25px;
+  border: 5px solid #fef76e;
+}
+
+.logo {
+  text-align: center;
+  padding: 15px;
+  text-transform: uppercase;
+  color: darkorange;
+}
+
+ul {
+  list-style: none;
+}
+
+#topo ul {
+  margin-top: 130px;
+  margin-left: 43px;
+  float: left;
+}
+
+#topo ul li {
+  float: left;
+}
+
+#topo ul li a{
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  line-height: 2em;
+  padding: 0.7em 3em;
+  background: #fef76e;
+  color: orange;
+  border: 2px solid orange;
+  border-radius: 10px;
+}
+
+#topo ul li a:hover {
+  background: #faf519;
+  border: 5px solid orange;
+  color: darkorange;
+}
+
+body.home #navegacao-horizontal a#home {
+  background: #faf519;
+  border: 3.5px solid orange;
+  color: darkorange;
+}
